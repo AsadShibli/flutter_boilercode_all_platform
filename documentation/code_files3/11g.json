@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "762621121311",
+    "project_id": "poker-app-2",
+    "storage_bucket": "poker-app-2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762621121311:android:f98b405cae5acaea8cd62a",
+        "android_client_info": {
+          "package_name": "com.asadullahshibli.pokerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjIiLIT5XSwbT2MKXk3NWl79H5_HjJMCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "poker-app-2",
+          "appId": "1:762621121311:android:81d80ff92f83835d8cd62a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "poker-app-2",
+          "configurations": {
+            "android": "1:762621121311:android:81d80ff92f83835d8cd62a",
+            "ios": "1:762621121311:ios:66d15d3b23df45e08cd62a",
+            "web": "1:762621121311:web:ae6a75ec07227f838cd62a",
+            "windows": "1:762621121311:web:1e28cebe5ec3e52f8cd62a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
