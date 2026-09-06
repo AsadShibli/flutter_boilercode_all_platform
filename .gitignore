@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Secrets / keys (never publish)
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
+
+# Local Flutter app trees (docs-only publish)
+basic_template_*/
+**/poker_app/
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
